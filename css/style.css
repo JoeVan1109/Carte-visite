@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 50px;
+  width: 555px;
+  height: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 22px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+a {
+  color: hsl(0, 0%, 100%);
+  padding: 10px;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+
+.card {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 40px;
+  background-color: hsl(0, 0%, 12%);
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+button {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 50px;
+  width: 555px;
+  height: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 22px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.pp {
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.name {
+  color: hsl(0, 0%, 100%);
+}
+
+.local {
+  color: hsl(75, 94%, 57%);
+}
+
+.profil {
+  color: hsl(0, 0%, 100%);
+}
+
+.mousemove {
+  height: 50px;
+  width: 50px;
+  border: 2px solid pink;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  transition: 0.2s ease;
+  z-index: -1;
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    width: 350px;
+  }
+  button {
+    width: 300px;
+  }
+  .gif {
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

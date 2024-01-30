@@ -1,0 +1,81 @@
+@import "./_base/typography";
+@import "./_components/buttons";
+@import "./_themes/theme";
+@import "./_utils/functions";
+@import "./_utils/mixins";
+@import "./_utils/placeholders";
+@import "./_utils/variables";
+
+body{
+    background-color: $black;
+}
+.card{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 40px;
+    background-color: $darkgrey;
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+button {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 50px;
+    width: 555px;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 22px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.pp{
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.name{
+    color: $white;
+}
+.local{
+    color: $green;
+}
+.profil{
+    color: $white;
+}
+
+.mousemove {
+    height: 50px;
+    width: 50px;
+    border: 2px solid pink;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    transition: 0.2s ease;
+    z-index: -1;
+}
+//! Media queries----------------------------------------------------------------
+
+@media  screen and (max-width:375px){
+    
+
+    .card {
+        width: 350px;
+    }
+
+    button{
+        width: 300px;
+    }
+    .gif{
+        width: 300px;
+    }
+
+
+}

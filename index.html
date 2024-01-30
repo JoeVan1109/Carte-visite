@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Social links profile</title>
+
+
+
+</head>
+<body>
+<div class="card">
+  <img class="pp" src="./assets/images/pp.jpg" alt="pp">
+
+  <h1 class="name">Charlie VANLERBERGHE</h1>
+
+  <h2 class="local">Tours, France</h2>
+  
+  <p class="profil">Développeur fullstack en formation</p>
+
+  <a href="https://github.com/JoeVan1109">Github</a>
+  
+  <a href="https://www.linkedin.com/in/clarisse-vanlerberghe-616171178/">Linkedin</a>
+
+
+  <button data-etat="ferme" data-target="lire1" class="monBouton" type="button" onclick="toggle_div(this, 'lire1');" title="Afficher la suite">Parfume Card</button>
+  <div id="lire1" style="display:none"> 
+    
+  <a href="https://goopics.net/i/srxqxf"><img src="./assets/images/parfumeminiature.jpg" alt="Parfume card" title="Cliquez pour agrandir" /></a></div>
+
+  <button data-etat="ferme" data-target="lire2" class="monBouton" type="button" onclick="toggle_div(this, 'lire2');" title="Afficher la suite">Porjet JS</button>
+  <div id="lire2" style="display:none"> 
+  
+    <img class="gif" src="./assets/images/Animation.gif" alt="Projet JS" title="Cliquez pour agrandir" /></a></div>
+
+  <button data-etat="ferme" data-target="lire3" class="monBouton" type="button" onclick="toggle_div(this, 'lire3');" title="Afficher la suite">Yellow Card</button>
+  <div id="lire3" style="display:none"> 
+  
+    <a href="https://goopics.net/i/35sb58"><img src="./assets/images/yellowcardminiature.jpg" alt="Yellow card" title="Cliquez pour agrandir" /></a></div>
+</div>
+
+
+<div class="mousemove"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
